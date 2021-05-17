@@ -13,9 +13,9 @@ The system works without an adapter board, or switching of wires. You just plug 
 
 Tweaking: 
 You'll need to properly set the Z Probe Offset, which I recommend doing using the wizard. 
-First, set your bed temperature and nozzle temperature to your recommended filament temperature. 
-Then, run the wizard. This is available in the
-`Configuration` > `Advanced Settings` > `Probe Offsets` > `Z Probe Wizard`
-This will do an auto home, then run you through adjusting the bed height to get it close to the nozzle. 
+* First, set your bed temperature and nozzle temperature to your recommended filament temperature. 
+* Then, run the wizard. This is available in the
+  `Configuration` > `Advanced Settings` > `Probe Offsets` > `Z Probe Wizard`
+* This will do an auto home, then run you through adjusting the bed height to get it close to the nozzle. 
 
 Finally, you'll want to add a `G29` Gcode snippet before each print to get the mesh correct. 
